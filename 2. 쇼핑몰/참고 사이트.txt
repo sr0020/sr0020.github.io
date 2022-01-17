@@ -1,4 +1,0 @@
-0116 html
-전체 코드 따라하기(참고로 1번은 특정 코드만 변형하는 식이었음)
-
-- https://d0ngr0thy.tistory.com/108?category=895141
