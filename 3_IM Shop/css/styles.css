@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 992px;
+    font-family: 'STIX Two Math';
+}
+
+.header_image{
+    background-color: #dfdede;
+    height: 300px;
+    padding-left: 456px;
+    padding-right: 456px;
+}
+
+.navbar{
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.navbar ul{
+    background-color: #5a7497;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+    margin-right: 30px;
+    padding-left: 15px;
+}
+
+.navbar a{
+    display: block;
+    background-color: #5a7497;
+    color: white; 
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar a:hover:not(.current){
+    background-color:#c4d6ed;
+    color: black;
+}
+
+body h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: bold;
+    color: Black;
+}
+
+.products{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 1000px;
+    text-align: center;
+}
+
+.products img{
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.products a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 18px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer img{
+    margin-top: 40px;
+    height: 20px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+    
+    .header_image{
+        display: block;
+        background-color: #dfdede;
+        padding-left: 192px;
+        padding-right: 192px;
+    }
+    
+    .navbar {
+        display: block;
+        background-color: #5a7497;
+        padding: 8px;
+        padding-left: 300px;
+    }
+
+    .navbar a:hover:not(.current){
+        background-color:#c4d6ed;
+        color: black;
+        padding: 10px;
+    }
+
+    body h1{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: bold;
+        color: Black;
+    }
+
+    .products{
+        text-align: center;
+        display: block;
+        padding-left: 250px;
+        width: 720px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+  }
